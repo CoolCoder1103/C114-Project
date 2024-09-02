@@ -1,0 +1,38 @@
+/* Centering container */
+.center-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;           /* Full viewport height */
+    position: relative;
+    top: -50px;       /* Adjust this value to move up or down */
+  }
+
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+    background-color: red;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    margin: 0 auto;
+}
+
+/*@keyframes example {
+
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
+*/
+
